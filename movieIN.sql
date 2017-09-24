@@ -70,12 +70,17 @@ insert into interest values(68, 2000000, 3);
 insert into interest values(68, 4000000, 73);
 insert into interest values(68, 5000000, 108);
 
-insert into interest values(68, 300000, -100);
-insert into interest values(68, 1500000, -26);
-insert into interest values(68, 2000000, 3);
-insert into interest values(68, 4000000, 73);
-insert into interest values(68, 5000000, 108);
+insert into interest values(66, 100000, -100);
+insert into interest values(66, 1500000, -3);
+insert into interest values(66, 2000000, 8);
+insert into interest values(66, 4000000, 120);
+insert into interest values(66, 5000000, 250);
 
+insert into reward values(65, 15000, '영화 티켓2장');
+insert into reward values(65, 30000, '영화 티켓2장, 엽서');
+insert into reward values(65, 50000, '시사회 티켓2장, 포스터');
+insert into reward values(65, 100000, '시사회 티켓2장, 스탬프, 포스터');
+insert into reward values(65, 150000, '시사회 티켓2장, 에코백');
 commit;
 
 
@@ -86,3 +91,4 @@ select * from investproject;
 select * from movie;
 select * from company;
 select * from interest;
+select * from reward;
